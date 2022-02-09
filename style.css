@@ -1,0 +1,88 @@
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ .box-card { 
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    border-radius: 15px;
+    background: white;
+    box-sizing: 50%;
+    margin-top: 20px;
+} 
+
+#img-cabeçalho {
+    width: 390px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+main {
+    text-align: center;
+    padding: 0 35px 15px;
+}
+
+#texto {
+    font-size: 16px;
+    color: grey;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    color: grey;
+    margin-top: 20px;
+}
+
+b {color: black;}
+
+footer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 35px;
+
+}
+
+button {
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    margin: 10px;
+    height: 45px;
+    border: hidden;
+    cursor: pointer;
+}
+
+#btn-proceed {
+    box-shadow: 0 6px 30px  hsl(225deg 52% 76%);
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    margin: 13px 0 17px;
+}
+#btn-cancel {
+    background-color: white;
+    color: grey;
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
